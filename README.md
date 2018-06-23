@@ -38,7 +38,7 @@ A helper function to determine which particles have collided with a barrier. Bar
 A helper function to determine which particles have exited the map.
 
 ## tally.m
-A helper function to generate statistices about a building's visit statistics.
+A helper function to generate a building's visit statistics.
 
 # Acknowledgements
 This project was submitted as an assessment piece in 2015 at Queensland University of Technology, for the subject 'Computational Explorations' (course code MXB161), whereupon it recieved a grade of high distinction. 
