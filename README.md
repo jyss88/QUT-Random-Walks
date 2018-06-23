@@ -3,6 +3,8 @@ A Matlab simulation of a population walking around a university campus, using ra
 
 The behavior of a population walking around a university campus is simulated using random walks. The intent of the project was to identify which areas and buildings would be most visited, assuming a random walking behavior for the population. 
 
+![Image of simulation](sample_simulation.PNG)
+
 ## Basic overview
 Particles, representing persons on campus, are given a fixed step size, and are randomly stepped left, right, up, or down for a number of iterations. 
 
@@ -24,6 +26,10 @@ The number of particles, number of simulation steps, and deltax/deltay values ma
 
 ## generate_particles.m
 A helper function to randomly generate particles on 'allowed' areas on a map. 'Allowed' areas are indicted with a logical mask image.
+
+Below is the logical mask image used in the simulation, to spawn particles on paths. 
+
+![Path mask](pathspawn.PNG)
 
 ## checkhit.m
 A helper function to determine which particles have collided with a barrier. Barriers are identified with a logical mask image.
