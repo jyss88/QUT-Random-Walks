@@ -10,7 +10,7 @@ Particles, representing persons on campus, are given a fixed step size, and are 
 
 The probability of stepping in each direction depends on where a particle is on the map. Particles on paths are more likely to follow the direction of said paths, whilst particles at junctions, or inside buildings have equal probability of stepping in either direction.
 
-Upon hitting a barrier (stepping outside a path, or building), particles will be 'stepped back' to ensure they are always inside a path or buidling.
+Upon hitting a barrier (stepping outside a path, or building), particles will be 'stepped back' to ensure they are always inside a path or buiding.
 
 An animation of the simulation can be displayed.
 
