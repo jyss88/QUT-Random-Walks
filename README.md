@@ -41,6 +41,6 @@ A helper function to determine which particles have exited the map.
 A helper function to generate statistices about a building's visit statistics.
 
 # Acknowledgements
-This project was submitted as an assessment piece in 2015 at Queensland University of Technology, for the subject 'Computational Explorations' (course code MXB161). 
+This project was submitted as an assessment piece in 2015 at Queensland University of Technology, for the subject 'Computational Explorations' (course code MXB161), whereupon it recieved a grade of high distinction. 
 
 This project was completed in collaboration with fellow QUT students James Buckland, Alison Driver, [Kent Lowrey](mailto:kentos123@live.com), and Caity Strachan.
