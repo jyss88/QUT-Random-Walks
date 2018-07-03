@@ -19,28 +19,30 @@ At the end of the simulation, a histogram is generated, detailing the visitor st
 # Code Structure
 All source code can be found in the folder [Matlab Code](https://github.com/jyss88/QUT-Random-Walks/tree/master/Matlab%20Code)
 
-## random_walk_qut.m
+## [random_walk_qut.m](https://github.com/jyss88/QUT-Random-Walks/blob/master/Matlab%20Code/random_walk_qut.m)
 Main simulation file. Users may choose to display an animation, or to randomly distribute particles accross pathways. 
 
 The number of particles, number of simulation steps, and deltax/deltay values may also be modified to other positive, integer numbers. 
 
-## generate_particles.m
+## [generate_particles.m](https://github.com/jyss88/QUT-Random-Walks/blob/master/Matlab%20Code/generate_particles.m)
 A helper function to randomly generate particles on 'allowed' areas on a map. 'Allowed' areas are indicted with a logical mask image.
 
 Below is the logical mask image used in the simulation, to spawn particles on paths. 
 
 ![Path mask](pathspawn.PNG)
 
-## checkhit.m
+## [checkhit.m](https://github.com/jyss88/QUT-Random-Walks/blob/master/Matlab%20Code/checkhit.m)
 A helper function to determine which particles have collided with a barrier. Barriers are identified with a logical mask image.
 
-## checkout.m 
+## [checkout.m](https://github.com/jyss88/QUT-Random-Walks/blob/master/Matlab%20Code/checkout.m) 
 A helper function to determine which particles have exited the map.
 
-## tally.m
+## [tally.m](https://github.com/jyss88/QUT-Random-Walks/blob/master/Matlab%20Code/tally.m)
 A helper function to generate a building's visit statistics.
 
 # Acknowledgements
-This project was submitted as an assessment piece in 2015 at Queensland University of Technology, for the subject 'Computational Explorations' (course code MXB161), whereupon it recieved a grade of high distinction. 
+This project was originally submitted as an assessment piece in 2015 at Queensland University of Technology, for the subject 'Computational Explorations' (course code MXB161), whereupon it recieved a grade of high distinction. 
+
+Some revisions have been make to make the code more presentable to a general audience.
 
 This project was completed in collaboration with fellow QUT students James Buckland, Alison Driver, [Kent Lowrey](mailto:kentos123@live.com), and Caity Strachan.
